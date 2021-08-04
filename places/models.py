@@ -9,7 +9,7 @@ class Place(models.Model):
     )
     name = models.CharField(max_length=255)
     location = models.CharField(max_length=255)
-    desscriptiion = models.TextField(null=True, blank=True)
+    description = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     views_count = models.IntegerField(default=0)
