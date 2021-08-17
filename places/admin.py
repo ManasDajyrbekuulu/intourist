@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Place
+from .models import Place, Feedback
 
 
 admin.site.register(Place)
-# Register your models here.
+
+admin.site.register(Feedback)
